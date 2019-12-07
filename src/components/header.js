@@ -1,10 +1,11 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const header = () => {
   return (
-    <>
-      <h1>Header</h1>
-    </>
+    <nav className="antialiased bg-gray-200">
+      <div className="flex"></div>
+    </nav>
   )
 }
 

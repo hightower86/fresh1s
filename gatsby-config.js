@@ -14,5 +14,6 @@ module.exports = {
         postCssPlugins: [require("tailwindcss")],
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 }
