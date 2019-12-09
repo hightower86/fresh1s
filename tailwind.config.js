@@ -7,7 +7,8 @@ module.exports = {
       px4: "4px",
     },
     margin: {
-      0.1: "0.1rem",
+      01: "0.1rem",
+      02: "0.2rem",
     },
   },
   variants: {},
