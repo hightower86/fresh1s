@@ -3,3 +3,23 @@
 @tailwind components;
 
 @tailwind utilities;
+
+/* .h-px2 {
+  height: "2px";
+}
+.h-px3 {
+  height: 3px;
+}
+.h-px4 {
+  height: 4px;
+}
+.h-px5 {
+  height: 5px;
+}
+
+.m-01 {
+  margin: 0.1rem;
+}
+.m-02 {
+  margin: 0.2rem;
+} */
