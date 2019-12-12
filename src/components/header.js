@@ -66,9 +66,9 @@ const Header = () => {
           >
             Contacts
           </Link>
+          <AccountDropdown isActive={menuActive}></AccountDropdown>
         </div>
       </header>
-      <AccountDropdown isActive={menuActive}></AccountDropdown>
     </>
   )
 }
