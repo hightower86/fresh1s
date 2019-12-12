@@ -13,6 +13,13 @@ const AccountDropdown = () => {
           onClick={() => setShowDropdown(!showDropdown)}
         />
       </button>
+      <button
+        onClick={() => setShowDropdown(false)}
+        className={
+          (showDropdown ? "block " : "hidden ") +
+          " fixed top-0 right-0 left-0 bottom-0  h-full w-full bg-black opacity-50"
+        }
+      ></button>
       <div
         className={
           (showDropdown ? "block " : "hidden ") +
