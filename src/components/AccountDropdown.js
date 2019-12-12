@@ -11,14 +11,14 @@ const AccountDropdown = () => {
           alt=""
         />
       </button>
-      <div className="bg-gray-600 rounded-lg p-2">
-        <Link to="/" className="block">
+      <div className="mt-2 bg-gray-500 rounded-lg py-2 shadow-lg">
+        <Link to="/" className="block px-4 py-2 hover:bg-gray-400">
           Account settings
         </Link>
-        <Link to="/" className="block">
+        <Link to="/" className="block px-4 py-2 hover:bg-gray-400">
           Support
         </Link>
-        <Link to="/" className="block">
+        <Link to="/" className="block px-4 py-2 hover:bg-gray-400">
           Sign out
         </Link>
       </div>
