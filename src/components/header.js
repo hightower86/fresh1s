@@ -25,7 +25,7 @@ const Header = () => {
                 console.log(menuActive)
               }}
             >
-              <svg className="h-8 w-8 fill-current" viewBox="0 0 24 24">
+              <svg className="h-8 w-8 py-1 fill-current" viewBox="0 0 24 24">
                 {menuActive && (
                   <path
                     fill-rule="evenodd"
@@ -66,7 +66,27 @@ const Header = () => {
           >
             Contacts
           </Link>
-          <AccountDropdown isActive={menuActive}></AccountDropdown>
+          <AccountDropdown isActive={menuActive} />
+          <div className=" sm:hidden mt-3 pt-3 border-t border-gray-600">
+            <div className="z-10 relative block ml-2 mt-2 sm:mt-0 sm:ml-6 h-8 w-8 rounded-full overflow-hidden border-2 border-gray-600 focus:outline-none focus:border-white hover:border-white">
+              <img
+                className="h-full w-full object-cover"
+                src="https://images.unsplash.com/photo-1574272573410-46a78e8f77e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2434&q=80"
+                alt=""
+              />
+            </div>
+            <div className="">
+              <Link to="/" className="block m-2 text-gray-300 hover:text-white">
+                Account settings
+              </Link>
+              <Link to="/" className="block m-2 text-gray-300 hover:text-white">
+                Support
+              </Link>
+              <Link to="/" className="block m-2 text-gray-300 hover:text-white">
+                Sign out
+              </Link>
+            </div>
+          </div>
         </div>
       </header>
     </>
