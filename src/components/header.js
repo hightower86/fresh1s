@@ -11,7 +11,7 @@ const Header = () => {
   const [menuActive, setMenuActive] = useState(true)
   return (
     <>
-      <header className="bg-gray-900 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
+      <header className="bg-gray-900 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3 shadow-xl">
         <div className="flex items-center justify-between py-3 px-4 sm:p-0">
           <div className="">
             <img className=" h-6" src={logo} alt="logo" />
@@ -50,21 +50,21 @@ const Header = () => {
         >
           <Link
             to="/"
-            className="px-2 py-1 block font-semibold rounded hover:bg-gray-800"
+            className="px-2 py-1 block font-semibold rounded hover:bg-gray-800 tracking-wide uppercase"
           >
-            Home
+            Главное
           </Link>
           <Link
             to="/"
-            className="mt-1 px-2 py-1 block font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+            className="mt-1 px-2 py-1 block font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2  tracking-wide uppercase"
           >
-            About
+            Тарифы
           </Link>
           <Link
             to="/"
-            className="mt-1 px-2 py-1 block font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2"
+            className="mt-1 px-2 py-1 block font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2  tracking-wide uppercase"
           >
-            Contacts
+            Заказ
           </Link>
           <AccountDropdown isActive={menuActive} />
           <div className=" sm:hidden mt-3 pt-3 border-t border-gray-600">
